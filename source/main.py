@@ -2,16 +2,17 @@ import logging
 import analysis
 
 logger = logging.getLogger('main')
-logger.setLevel(logging.DEBUG)
-handler = logging.StreamHandler()
-handler.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
-logger.addHandler(handler)
+hdlr = logging.FileHandler('../output.log')
+formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+hdlr.setFormatter(formatter)
+logger.addHandler(hdlr)
+logger.setLevel(logging.INFO)
 
 
 def wiki_vote_network(edgelist_file):
+    logger.info('## analysing {} network'.format(edgelist_file))
     analysis.analyse(edgelist_file)
+    logger.info('## analysis done!')
 
 
 if __name__ == '__main__':
