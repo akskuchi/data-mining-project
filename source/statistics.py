@@ -8,7 +8,7 @@ def compute_shortest_path_distances(graph):
     for key1, value1 in shortest_paths.items():
         for key2, value2 in value1.items():
             distances.append(value2)
-            
+
     return distances
 
 
@@ -29,4 +29,7 @@ def effective_diameter(graph):
     TODO: http://www.l3s.de/~anand/lsdm16/lectures/lsdm16-lecture-7-graphs.pdf
     :param graph: the connected component
     """
-    pass
+    eccentricities = nx.eccentricity(graph)
+    distances = [value for value in eccentricities.values()]
+
+    return np.max(distances)
