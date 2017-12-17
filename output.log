@@ -14,3 +14,71 @@
 2017-12-15 22:59:07,203 INFO diameter: 7
 2017-12-15 23:16:10,583 INFO effective diameter: 7
 2017-12-15 23:16:10,664 INFO ## analysis done!
+2017-12-17 12:05:17,592 INFO starting project
+2017-12-17 12:05:17,592 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-17 12:05:18,362 INFO number of nodes in the graph: 7115
+2017-12-17 12:06:03,945 INFO nodes and edges of lscc: 1300, 39456
+2017-12-17 12:06:41,190 INFO computed shortest path lengths
+2017-12-17 12:06:41,315 INFO mean distance: 2.877068047337278
+2017-12-17 12:06:41,439 INFO median distance: 3.0
+2017-12-17 12:07:20,594 INFO diameter: 9
+2017-12-17 12:07:20,714 INFO effective diameter: 4.0
+2017-12-17 12:07:20,718 INFO ## analysis done!
+2017-12-17 12:07:50,900 INFO starting project
+2017-12-17 12:07:50,900 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-17 12:07:51,689 INFO number of nodes in the graph: 7115
+2017-12-17 12:08:38,028 INFO nodes and edges of lscc: 1300, 39456
+2017-12-17 12:12:10,704 INFO starting project
+2017-12-17 12:12:10,704 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-17 12:12:11,468 INFO number of nodes in the graph: 7115
+2017-12-17 12:12:59,130 INFO nodes and edges of lscc: 1300, 39456
+2017-12-17 12:13:32,461 INFO computed shortest path lengths
+2017-12-17 12:13:32,575 INFO mean distance: 2.877068047337278
+2017-12-17 12:13:32,694 INFO median distance: 3.0
+2017-12-17 12:13:32,696 INFO diameter: 8271
+2017-12-17 12:13:32,814 INFO effective diameter: 4.0
+2017-12-17 12:13:32,818 INFO ## analysis done!
+2017-12-17 12:59:37,513 INFO starting project
+2017-12-17 12:59:37,513 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-17 12:59:38,459 INFO number of nodes in the graph: 7115
+2017-12-17 13:00:21,894 INFO nodes and edges of lscc: 1300, 39456
+2017-12-17 13:20:49,800 INFO starting project
+2017-12-17 13:20:49,800 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-17 13:20:50,593 INFO number of nodes in the graph: 7115
+2017-12-17 13:21:36,306 INFO nodes and edges of lscc: 1300, 39456
+2017-12-17 13:22:41,969 INFO computed shortest path lengths
+2017-12-17 13:22:42,107 INFO mean distance: 2.877068047337278
+2017-12-17 13:22:42,196 INFO median distance: 3.0
+2017-12-17 13:22:42,197 INFO diameter: 8271
+2017-12-17 13:22:42,404 INFO effective diameter: 4.0
+2017-12-17 13:22:42,408 INFO ## analysis done!
+2017-12-17 14:00:30,935 INFO starting project
+2017-12-17 14:00:30,936 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-17 14:00:31,712 INFO number of nodes in the graph: 7115
+2017-12-17 14:01:14,513 INFO nodes and edges of lscc: 1300, 39456
+2017-12-17 14:08:55,022 INFO starting project
+2017-12-17 14:08:55,023 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-17 14:08:55,772 INFO number of nodes in the graph: 7115
+2017-12-17 14:09:38,994 INFO nodes and edges of lscc: 1300, 39456
+2017-12-17 14:09:55,449 INFO computed shortest path lengths
+2017-12-17 14:09:55,455 INFO mean distance: nan
+2017-12-17 14:09:55,456 INFO median distance: nan
+2017-12-17 14:09:55,457 INFO diameter: 8271
+2017-12-17 14:10:50,634 INFO starting project
+2017-12-17 14:10:50,634 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-17 14:10:51,358 INFO number of nodes in the graph: 7115
+2017-12-17 14:11:36,843 INFO nodes and edges of lscc: 1300, 39456
+2017-12-17 14:11:53,932 INFO computed shortest path lengths
+2017-12-17 14:11:53,937 INFO mean distance: nan
+2017-12-17 14:11:53,938 INFO median distance: nan
+2017-12-17 14:11:53,938 INFO diameter: 8271
+2017-12-17 14:12:08,441 INFO starting project
+2017-12-17 14:12:08,441 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-17 14:12:09,230 INFO number of nodes in the graph: 7115
+2017-12-17 14:12:53,407 INFO nodes and edges of lscc: 1300, 39456
+2017-12-17 14:13:12,516 INFO computed shortest path lengths
+2017-12-17 14:13:12,633 INFO mean distance: 2.877068047337278
+2017-12-17 14:13:12,762 INFO median distance: 3.0
+2017-12-17 14:13:12,763 INFO diameter: 8271
+2017-12-17 14:13:12,880 INFO effective diameter: 4.0
+2017-12-17 14:13:12,884 INFO ## analysis done!

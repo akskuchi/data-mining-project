@@ -14,13 +14,13 @@ logger.setLevel(logging.INFO)
 
 
 def compute_statistics(component):
-    shortest_paths = statistics.compute_shortest_path_distances(component)
+    shortest_paths = statistics.compute_shortest_path_distances_parallel(component)
     logger.info('computed shortest path lengths')
 
     logger.info('mean distance: {}'.format(statistics.mean_distance(shortest_paths)))
     logger.info('median distance: {}'.format(statistics.median_distance(shortest_paths)))
-    logger.info('diameter: {}'.format(statistics.diameter(component)))
-    logger.info('effective diameter: {}'.format(statistics.effective_diameter(component)))
+    logger.info('diameter: {}'.format(statistics.diameter(shortest_paths)))
+    logger.info('effective diameter: {}'.format(statistics.effective_diameter(shortest_paths)))
 
 
 def analyse(filename):

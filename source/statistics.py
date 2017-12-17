@@ -1,5 +1,27 @@
 import networkx as nx
 import numpy as np
+from joblib import Parallel, delayed
+import multiprocessing as mp
+from functools import partial
+
+
+def compute_shortest_path_distances_parallel(graph):
+    num_cores = mp.cpu_count()
+    pool = mp.Pool(processes=num_cores)
+
+    parallel_function = partial(nx.single_source_shortest_path_length, graph)
+    sources = [source for source in graph]
+    shortest_paths = pool.map(parallel_function, sources)
+
+    pool.close()
+    pool.join()
+
+    distances = []
+    for _dict in shortest_paths:
+        for key, value in _dict.items():
+            distances.append(value)
+
+    return distances
 
 
 def compute_shortest_path_distances(graph):
@@ -20,16 +42,9 @@ def median_distance(distances):
     return np.median(distances)
 
 
-def diameter(graph):
-    return nx.diameter(graph)
-
-
-def effective_diameter(graph):
-    """
-    TODO: http://www.l3s.de/~anand/lsdm16/lectures/lsdm16-lecture-7-graphs.pdf
-    :param graph: the connected component
-    """
-    eccentricities = nx.eccentricity(graph)
-    distances = [value for value in eccentricities.values()]
-
+def diameter(distances):
     return np.max(distances)
+
+
+def effective_diameter(distances):
+    return np.percentile(distances, 90)
