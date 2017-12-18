@@ -1,3 +1,5 @@
+from graph_tool import topology
+
 import networkx as nx
 import numpy as np
 import multiprocessing as mp
@@ -23,12 +25,15 @@ def compute_shortest_path_distances_parallel(graph):
     return distances
 
 
-def compute_shortest_path_distances(graph):
-    shortest_paths = dict(nx.all_pairs_shortest_path_length(graph))
+def compute_shortest_path_distances(graph, directed):
+    shortest_path_lengths = topology.shortest_distance(graph, directed=directed)
     distances = []
-    for key1, value1 in shortest_paths.items():
-        for key2, value2 in value1.items():
-            distances.append(value2)
+    vertices = graph.get_vertices()
+
+    for v1 in vertices:
+        for v2 in vertices:
+            if v1 != v2:
+                distances.append(shortest_path_lengths[v1][v2])
 
     return distances
 

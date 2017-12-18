@@ -1,119 +1,35 @@
-2017-12-15 22:21:51,192 INFO starting project
-2017-12-15 22:21:51,192 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-15 22:21:51,582 INFO number of nodes in the graph: 7115
-2017-12-15 22:22:07,764 INFO nodes and edges of lscc: 1300, 39456
-2017-12-15 22:22:26,310 INFO computed shortest path lengths
-2017-12-15 22:22:26,409 INFO mean distance: 2.877068047337278
-2017-12-15 22:22:26,518 INFO median distance: 3.0
-2017-12-15 22:22:44,691 INFO diameter: 9
-2017-12-15 22:23:03,329 INFO effective diameter: 9
-2017-12-15 22:23:03,806 INFO nodes and edges of lwcc: 7066, 103663
-2017-12-15 22:41:30,069 INFO computed shortest path lengths
-2017-12-15 22:41:32,331 INFO mean distance: 3.247050393567936
-2017-12-15 22:41:37,255 INFO median distance: 3.0
-2017-12-15 22:59:07,203 INFO diameter: 7
-2017-12-15 23:16:10,583 INFO effective diameter: 7
-2017-12-15 23:16:10,664 INFO ## analysis done!
-2017-12-17 12:05:17,592 INFO starting project
-2017-12-17 12:05:17,592 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 12:05:18,362 INFO number of nodes in the graph: 7115
-2017-12-17 12:06:03,945 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 12:06:41,190 INFO computed shortest path lengths
-2017-12-17 12:06:41,315 INFO mean distance: 2.877068047337278
-2017-12-17 12:06:41,439 INFO median distance: 3.0
-2017-12-17 12:07:20,594 INFO diameter: 9
-2017-12-17 12:07:20,714 INFO effective diameter: 4.0
-2017-12-17 12:07:20,718 INFO ## analysis done!
-2017-12-17 12:07:50,900 INFO starting project
-2017-12-17 12:07:50,900 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 12:07:51,689 INFO number of nodes in the graph: 7115
-2017-12-17 12:08:38,028 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 12:12:10,704 INFO starting project
-2017-12-17 12:12:10,704 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 12:12:11,468 INFO number of nodes in the graph: 7115
-2017-12-17 12:12:59,130 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 12:13:32,461 INFO computed shortest path lengths
-2017-12-17 12:13:32,575 INFO mean distance: 2.877068047337278
-2017-12-17 12:13:32,694 INFO median distance: 3.0
-2017-12-17 12:13:32,696 INFO diameter: 8271
-2017-12-17 12:13:32,814 INFO effective diameter: 4.0
-2017-12-17 12:13:32,818 INFO ## analysis done!
-2017-12-17 12:59:37,513 INFO starting project
-2017-12-17 12:59:37,513 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 12:59:38,459 INFO number of nodes in the graph: 7115
-2017-12-17 13:00:21,894 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 13:20:49,800 INFO starting project
-2017-12-17 13:20:49,800 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 13:20:50,593 INFO number of nodes in the graph: 7115
-2017-12-17 13:21:36,306 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 13:22:41,969 INFO computed shortest path lengths
-2017-12-17 13:22:42,107 INFO mean distance: 2.877068047337278
-2017-12-17 13:22:42,196 INFO median distance: 3.0
-2017-12-17 13:22:42,197 INFO diameter: 8271
-2017-12-17 13:22:42,404 INFO effective diameter: 4.0
-2017-12-17 13:22:42,408 INFO ## analysis done!
-2017-12-17 14:00:30,935 INFO starting project
-2017-12-17 14:00:30,936 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 14:00:31,712 INFO number of nodes in the graph: 7115
-2017-12-17 14:01:14,513 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 14:08:55,022 INFO starting project
-2017-12-17 14:08:55,023 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 14:08:55,772 INFO number of nodes in the graph: 7115
-2017-12-17 14:09:38,994 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 14:09:55,449 INFO computed shortest path lengths
-2017-12-17 14:09:55,455 INFO mean distance: nan
-2017-12-17 14:09:55,456 INFO median distance: nan
-2017-12-17 14:09:55,457 INFO diameter: 8271
-2017-12-17 14:10:50,634 INFO starting project
-2017-12-17 14:10:50,634 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 14:10:51,358 INFO number of nodes in the graph: 7115
-2017-12-17 14:11:36,843 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 14:11:53,932 INFO computed shortest path lengths
-2017-12-17 14:11:53,937 INFO mean distance: nan
-2017-12-17 14:11:53,938 INFO median distance: nan
-2017-12-17 14:11:53,938 INFO diameter: 8271
-2017-12-17 14:12:08,441 INFO starting project
-2017-12-17 14:12:08,441 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 14:12:09,230 INFO number of nodes in the graph: 7115
-2017-12-17 14:12:53,407 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 14:13:12,516 INFO computed shortest path lengths
-2017-12-17 14:13:12,633 INFO mean distance: 2.877068047337278
-2017-12-17 14:13:12,762 INFO median distance: 3.0
-2017-12-17 14:13:12,763 INFO diameter: 8271
-2017-12-17 14:13:12,880 INFO effective diameter: 4.0
-2017-12-17 14:13:12,884 INFO ## analysis done!
-2017-12-17 14:43:08,611 INFO starting project
-2017-12-17 14:43:08,611 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 14:43:08,996 INFO number of nodes in the graph: 7115
-2017-12-17 14:43:09,459 INFO nodes and edges of lscc: 1300, 39456
-2017-12-17 14:43:10,969 INFO computed shortest path lengths
-2017-12-17 14:43:11,049 INFO mean distance: 2.877068047337278
-2017-12-17 14:43:11,133 INFO median distance: 3.0
-2017-12-17 14:43:11,212 INFO diameter: 9
-2017-12-17 14:43:11,301 INFO effective diameter: 4.0
-2017-12-17 14:43:11,326 INFO ## analysis done!
-2017-12-17 14:44:20,061 INFO starting project
-2017-12-17 14:44:20,061 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 14:44:20,452 INFO number of nodes in the graph: 7115
-2017-12-17 14:47:33,700 INFO starting project
-2017-12-17 14:47:33,701 INFO ## analysing resources/wiki-Vote.txt network
-2017-12-17 14:47:34,074 INFO number of nodes in the graph: 7115
-2017-12-17 14:47:34,557 INFO nodes and edges of lwcc: 7066, 103663
-2017-12-17 14:50:30,139 INFO computed shortest path lengths
-2017-12-17 14:50:32,312 INFO mean distance: 3.247050393567936
-2017-12-17 14:50:34,618 INFO median distance: 3.0
-2017-12-17 14:50:36,768 INFO diameter: 7
-2017-12-17 14:50:39,104 INFO effective diameter: 4.0
-2017-12-17 14:50:39,192 INFO ## analysis done!
-2017-12-17 14:55:50,247 INFO starting project
-2017-12-17 14:55:50,248 INFO ## analysing resources/soc-Epinions1.txt network
-2017-12-17 14:55:52,050 INFO number of nodes in the graph: 75879
-2017-12-17 15:16:37,031 INFO nodes and edges of lscc: 32223, 443506
-2017-12-17 15:32:21,816 INFO starting project
-2017-12-17 15:32:21,817 INFO ## analysing resources/soc-Epinions1.txt network
-2017-12-17 15:32:23,653 INFO number of nodes in the graph: 75879
-2017-12-17 15:32:26,485 INFO nodes and edges of lwcc: 75877, 508836
-2017-12-17 17:10:47,405 INFO starting project
-2017-12-17 17:10:47,405 INFO ## analysing resources/soc-Epinions1.txt network
-2017-12-17 17:10:49,266 INFO number of nodes in the graph: 75879
-2017-12-17 17:30:55,849 INFO nodes and edges of lscc: 32223, 443506
+2017-12-18 17:15:52,358 INFO starting project
+2017-12-18 17:15:52,359 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-18 17:16:24,295 INFO starting project
+2017-12-18 17:16:24,295 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-18 17:16:26,519 INFO nodes and edges of lscc: 1300, 39456
+2017-12-18 17:18:26,219 INFO computed shortest path lengths
+2017-12-18 17:18:26,277 INFO mean distance: 2.87928288032
+2017-12-18 17:18:26,342 INFO median distance: 3.0
+2017-12-18 17:18:26,398 INFO diameter: 9
+2017-12-18 17:18:26,457 INFO effective diameter: 4.0
+2017-12-18 17:18:26,462 INFO nodes and edges of lwcc: 7066, 103663
+2017-12-18 17:56:40,851 INFO starting project
+2017-12-18 17:56:40,852 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-18 17:56:44,011 INFO nodes and edges of lscc: 1300, 39456
+2017-12-18 17:58:26,671 INFO starting project
+2017-12-18 17:58:26,672 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-18 17:58:29,749 INFO nodes and edges of lscc: 1300, 39456
+2017-12-18 18:11:30,469 INFO starting project
+2017-12-18 18:11:30,469 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-18 18:11:33,463 INFO nodes and edges of lscc: 1300, 39456
+2017-12-18 18:13:38,270 INFO starting project
+2017-12-18 18:13:38,271 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-18 18:13:41,314 INFO nodes and edges of lscc: 1300, 39456
+2017-12-18 18:15:18,692 INFO starting project
+2017-12-18 18:15:18,692 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-18 18:15:20,970 INFO nodes and edges of lscc: 1300, 39456
+2017-12-18 18:17:14,042 INFO starting project
+2017-12-18 18:17:14,043 INFO ## analysing resources/wiki-Vote.txt network
+2017-12-18 18:17:16,360 INFO nodes and edges of lscc: 1300, 39456
+2017-12-18 18:19:18,168 INFO computed shortest path lengths
+2017-12-18 18:19:18,226 INFO mean distance: 2.87928288032
+2017-12-18 18:19:18,289 INFO median distance: 3.0
+2017-12-18 18:19:18,345 INFO diameter: 9
+2017-12-18 18:19:18,403 INFO effective diameter: 4.0
+2017-12-18 18:19:18,406 INFO ## analysis done!
