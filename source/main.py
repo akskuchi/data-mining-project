@@ -23,5 +23,5 @@ def soc_epinions1_network(edgelist_file):
 
 if __name__ == '__main__':
     logger.info('starting project')
-    # wiki_vote_network('resources/wiki-Vote.txt')
-    soc_epinions1_network('resources/soc-Epinions1.txt')
+    wiki_vote_network('/u/74/surikua1/unix/Documents/lscc_2.txt')
+   # soc_epinions1_network('resources/soc-Epinions1.txt')

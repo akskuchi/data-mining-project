@@ -24,13 +24,13 @@ def compute_statistics(component):
 
 
 def analyse(filename):
-    directed_graph = read_graph.as_directed(filename)
+    lscc = read_graph.as_directed(filename)
 
-    lscc = max(nx.strongly_connected_component_subgraphs(directed_graph), key=len)
+    #lscc = max(nx.strongly_connected_component_subgraphs(directed_graph), key=len)
     logger.info('nodes and edges of lscc: {}, {}'.format(nx.number_of_nodes(lscc), nx.number_of_edges(lscc)))
     compute_statistics(lscc)
 
-    lwcc = max(nx.weakly_connected_component_subgraphs(directed_graph), key=len)
-    lwcc = nx.to_undirected(lwcc)
-    logger.info('nodes and edges of lwcc: {}, {}'.format(nx.number_of_nodes(lwcc), nx.number_of_edges(lwcc)))
-    compute_statistics(lwcc)
+    #lwcc = max(nx.weakly_connected_component_subgraphs(directed_graph), key=len)
+    #lwcc = nx.to_undirected(lwcc)
+    #logger.info('nodes and edges of lwcc: {}, {}'.format(nx.number_of_nodes(lwcc), nx.number_of_edges(lwcc)))
+    #compute_statistics(lwcc)
