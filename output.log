@@ -117,3 +117,159 @@
 2017-12-17 17:10:47,405 INFO ## analysing resources/soc-Epinions1.txt network
 2017-12-17 17:10:49,266 INFO number of nodes in the graph: 75879
 2017-12-17 17:30:55,849 INFO nodes and edges of lscc: 32223, 443506
+2017-12-28 03:29:38,823 INFO starting project
+2017-12-28 03:29:46,107 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-28 03:30:23,856 INFO starting project
+2017-12-28 03:30:31,854 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-28 03:30:40,823 INFO number of nodes in the graph: 1300
+2017-12-28 03:32:14,633 INFO computed shortest path lengths
+2017-12-28 03:32:17,072 INFO mean distance: 2.8692307692307693
+2017-12-28 03:32:32,328 INFO median distance: 3.0
+2017-12-28 03:32:35,037 INFO diameter: 7
+2017-12-28 03:32:41,267 INFO effective diameter: 4.0
+2017-12-28 03:32:46,105 INFO ## analysis done!
+2017-12-28 13:24:52,825 INFO starting project
+2017-12-28 13:24:52,826 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-28 13:25:06,024 INFO number of nodes in the graph: 1300
+2017-12-28 13:25:21,900 INFO computed shortest path lengths
+2017-12-28 13:25:21,915 INFO mean distance: 2.873011834319527
+2017-12-28 13:25:21,928 INFO median distance: 3.0
+2017-12-28 13:25:21,940 INFO diameter: 8
+2017-12-28 13:25:21,954 INFO effective diameter: 4.0
+2017-12-28 13:25:35,703 INFO ## analysis done!
+2017-12-29 01:33:23,109 INFO starting project
+2017-12-29 01:33:23,111 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 01:33:53,305 INFO Flajolet Martin approximation
+2017-12-29 01:34:01,546 INFO number of nodes in the graph: 1300
+2017-12-29 01:51:25,425 INFO starting project
+2017-12-29 01:51:25,426 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 01:51:37,565 INFO Flajolet Martin approximation
+2017-12-29 01:51:39,781 INFO number of nodes in the graph: 1300
+2017-12-29 01:52:55,205 INFO starting project
+2017-12-29 01:52:55,205 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 01:53:03,384 INFO Flajolet Martin approximation
+2017-12-29 01:53:04,647 INFO number of nodes in the graph: 1300
+2017-12-29 01:59:34,706 INFO starting project
+2017-12-29 01:59:34,707 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 01:59:38,091 INFO Flajolet Martin approximation
+2017-12-29 01:59:38,613 INFO number of nodes in the graph: 1300
+2017-12-29 02:01:18,915 INFO starting project
+2017-12-29 02:01:18,915 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:01:23,757 INFO Flajolet Martin approximation
+2017-12-29 02:01:24,249 INFO number of nodes in the graph: 1300
+2017-12-29 02:08:55,514 INFO starting project
+2017-12-29 02:08:55,515 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:08:58,496 INFO Flajolet Martin approximation
+2017-12-29 02:08:59,020 INFO number of nodes in the graph: 1300
+2017-12-29 02:09:50,501 INFO starting project
+2017-12-29 02:09:50,501 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:09:56,214 INFO Flajolet Martin approximation
+2017-12-29 02:09:56,707 INFO number of nodes in the graph: 1300
+2017-12-29 02:10:24,512 INFO ## analysis done!
+2017-12-29 02:35:39,170 INFO starting project
+2017-12-29 02:35:39,171 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:35:53,861 INFO Flajolet Martin approximation
+2017-12-29 02:35:55,774 INFO number of nodes in the graph: 1300
+2017-12-29 02:36:43,628 INFO starting project
+2017-12-29 02:36:43,628 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:36:47,963 INFO Flajolet Martin approximation
+2017-12-29 02:36:49,931 INFO number of nodes in the graph: 1300
+2017-12-29 02:41:18,895 INFO starting project
+2017-12-29 02:41:18,899 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:41:21,511 INFO Flajolet Martin approximation
+2017-12-29 02:41:22,097 INFO number of nodes in the graph: 1300
+2017-12-29 02:43:15,904 INFO starting project
+2017-12-29 02:43:15,904 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:43:23,385 INFO Flajolet Martin approximation
+2017-12-29 02:43:23,928 INFO number of nodes in the graph: 1300
+2017-12-29 02:49:17,504 INFO starting project
+2017-12-29 02:49:17,504 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:49:25,664 INFO Flajolet Martin approximation
+2017-12-29 02:49:28,690 INFO number of nodes in the graph: 1300
+2017-12-29 02:50:14,942 INFO starting project
+2017-12-29 02:50:14,943 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:50:29,881 INFO Flajolet Martin approximation
+2017-12-29 02:50:30,385 INFO number of nodes in the graph: 1300
+2017-12-29 02:52:12,644 INFO starting project
+2017-12-29 02:52:12,644 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:52:17,196 INFO Flajolet Martin approximation
+2017-12-29 02:52:17,697 INFO number of nodes in the graph: 1300
+2017-12-29 02:55:04,074 INFO starting project
+2017-12-29 02:55:04,075 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:55:07,397 INFO Flajolet Martin approximation
+2017-12-29 02:55:07,899 INFO number of nodes in the graph: 1300
+2017-12-29 02:56:11,806 INFO starting project
+2017-12-29 02:56:11,807 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 02:56:14,774 INFO Flajolet Martin approximation
+2017-12-29 02:56:15,301 INFO number of nodes in the graph: 1300
+2017-12-29 03:05:04,977 INFO starting project
+2017-12-29 03:05:04,977 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 03:12:23,443 INFO starting project
+2017-12-29 03:12:23,443 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 03:12:28,127 INFO Flajolet Martin approximation
+2017-12-29 03:12:28,628 INFO number of nodes in the graph: 1300
+2017-12-29 03:18:34,907 INFO starting project
+2017-12-29 03:18:34,907 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 03:18:52,291 INFO starting project
+2017-12-29 03:18:52,292 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 03:19:01,270 INFO Flajolet Martin approximation
+2017-12-29 03:19:01,778 INFO number of nodes in the graph: 1300
+2017-12-29 03:24:44,754 INFO starting project
+2017-12-29 03:24:44,755 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 03:24:49,246 INFO Flajolet Martin approximation
+2017-12-29 03:24:49,760 INFO number of nodes in the graph: 1300
+2017-12-29 03:52:45,893 INFO starting project
+2017-12-29 03:52:45,894 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 03:52:51,051 INFO Flajolet Martin approximation
+2017-12-29 03:52:53,812 INFO number of nodes in the graph: 1300
+2017-12-29 03:55:30,111 INFO starting project
+2017-12-29 03:55:30,112 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 03:55:34,189 INFO Flajolet Martin approximation
+2017-12-29 03:55:35,352 INFO number of nodes in the graph: 1300
+2017-12-29 04:05:17,529 INFO starting project
+2017-12-29 04:05:17,530 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:06:18,217 INFO Flajolet Martin approximation
+2017-12-29 04:06:26,778 INFO number of nodes in the graph: 1300
+2017-12-29 04:16:19,331 INFO starting project
+2017-12-29 04:16:19,332 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:16:26,694 INFO Flajolet Martin approximation
+2017-12-29 04:16:27,990 INFO number of nodes in the graph: 1300
+2017-12-29 04:17:46,898 INFO starting project
+2017-12-29 04:17:46,898 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:17:54,008 INFO Flajolet Martin approximation
+2017-12-29 04:17:55,095 INFO number of nodes in the graph: 1300
+2017-12-29 04:19:46,965 INFO starting project
+2017-12-29 04:19:46,966 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:19:49,099 INFO Flajolet Martin approximation
+2017-12-29 04:19:50,586 INFO number of nodes in the graph: 1300
+2017-12-29 04:21:43,384 INFO starting project
+2017-12-29 04:21:43,385 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:22:03,062 INFO starting project
+2017-12-29 04:22:03,063 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:22:19,833 INFO Flajolet Martin approximation
+2017-12-29 04:22:20,781 INFO number of nodes in the graph: 1300
+2017-12-29 04:23:38,897 INFO starting project
+2017-12-29 04:23:38,898 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:23:52,444 INFO Flajolet Martin approximation
+2017-12-29 04:23:53,733 INFO number of nodes in the graph: 1300
+2017-12-29 04:32:07,618 INFO starting project
+2017-12-29 04:32:07,619 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:32:19,128 INFO Flajolet Martin approximation
+2017-12-29 04:32:21,265 INFO number of nodes in the graph: 1300
+2017-12-29 04:34:26,134 INFO ## analysis done!
+2017-12-29 04:35:17,883 INFO starting project
+2017-12-29 04:35:17,883 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:35:17,883 INFO Flajolet Martin approximation
+2017-12-29 04:35:18,439 INFO number of nodes in the graph: 1300
+2017-12-29 04:35:34,426 INFO ## analysis done!
+2017-12-29 04:38:09,661 INFO starting project
+2017-12-29 04:38:09,661 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:38:09,661 INFO Flajolet Martin approximation
+2017-12-29 04:38:12,106 INFO number of nodes in the graph: 1300
+2017-12-29 04:39:16,861 INFO diameter of the component: 8
+2017-12-29 04:39:16,863 INFO mean distance of the component: 1937658150494324391936
+2017-12-29 04:39:16,895 INFO ## analysis done!
+2017-12-29 04:43:31,082 INFO starting project
+2017-12-29 04:43:31,083 INFO ## analysing /Users/kaushiksurikuchi/Downloads/lscc_1.txt network
+2017-12-29 04:43:36,194 INFO Flajolet Martin approximation
+2017-12-29 04:43:43,980 INFO number of nodes in the graph: 1300
