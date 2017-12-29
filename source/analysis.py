@@ -16,7 +16,7 @@ hdlr.setFormatter(formatter)
 logger.addHandler(hdlr)
 logger.setLevel(logging.INFO)
 
-accuracy_array = [0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.6, 0.7, 0.8, 0.9]
+accuracy_array = [0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09]
 
 # wiki-Vote stats
 exact_median_lscc1, exact_mean_lscc1, exact_diameter_lscc1, exact_effective_diameter_lscc1 = 3, 2.876, 9, 4
@@ -204,7 +204,7 @@ def plot_compare_approx_exact(means, medians, diameters, eff_diameters, stats):
     plt.legend()
     plt.xlabel('accuracy')
     plt.ylabel('distance')
-    plt.savefig('')
+    plt.savefig('lscc_1_2.png')
 
 
 def approx_analysis(filename, component_type, scheme, plot=False, network_index=1):
@@ -249,7 +249,7 @@ def approx_analysis(filename, component_type, scheme, plot=False, network_index=
             eff_diameters = []
 
             for accuracy in accuracy_array:
-                path_lengths = random_sources(filename, component_type, accuracy, plot)
+                path_lengths = random_sources(filename, component_type, accuracy * 0.1, plot)
                 means.append(statistics.mean_distance(path_lengths))
                 medians.append(statistics.median_distance(path_lengths))
                 diameters.append(statistics.diameter(path_lengths))
