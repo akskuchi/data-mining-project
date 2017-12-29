@@ -15,14 +15,14 @@ def neighborhood_sum(b, n, k, h):
 def neighborhood_func(b, k, h, i):
     s = 0
     for l in range(k):
-        s += leftmost_zero(b[l, h, i])
+        for _h in range(h):
+            s += leftmost_zero(b[l, _h, i])
+
     return 2 ** (s / k) / 0.77351
 
 
 def leftmost_zero(array):
-    for pos in range(len(array)):
-        if not array[pos]:
-            return len(array) - pos
+    return np.where(array == 0)[0][0]
 
 
 def compute_shortest_path_distances_pairs(component, pairs, num_pairs):
