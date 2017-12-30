@@ -51,6 +51,10 @@ def n_random_permutations(iterable, n, k=2):
 
 
 def compute_statistics(shortest_paths):
+    """
+    compute the statistics based on the shortest-path-lengths
+    :param shortest_paths: shortest-path-lengths
+    """
     logger.info('mean distance: {}'.format(statistics.mean_distance(shortest_paths)))
     logger.info('median distance: {}'.format(statistics.median_distance(shortest_paths)))
     logger.info('diameter: {}'.format(statistics.diameter(shortest_paths)))
@@ -58,6 +62,11 @@ def compute_statistics(shortest_paths):
 
 
 def exact_analysis(filename, component_type=None):
+    """
+    perform exact analysis for the component
+    :param filename: component edgelist filename
+    :param component_type: lscc / lwcc / graph
+    """
     if component_type == 'lscc':
         lscc = read_graph.as_directed(filename)
         logger.info('nodes and edges of lscc: {}, {}'.format(nx.number_of_nodes(lscc), nx.number_of_edges(lscc)))
@@ -76,6 +85,14 @@ def exact_analysis(filename, component_type=None):
 
 
 def random_pairs(filename, cc_type, accuracy_param, plot=False):
+    """
+    selects random pairs to perform all-pair-shortest-paths
+    :param filename: component edgelist filename
+    :param cc_type: largest strongly/weakly connected component identifier (lscc / lwcc)
+    :param accuracy_param: accuracy controlling param
+    :param plot: True / False
+    :return: shortest-path-lengths
+    """
     start = time.time()
 
     component = None
@@ -97,6 +114,14 @@ def random_pairs(filename, cc_type, accuracy_param, plot=False):
 
 
 def random_sources(filename, cc_type, accuracy_param, plot=False):
+    """
+    selects random sources to perform all-pair-shortest-paths
+    :param filename: component edgelist filename
+    :param cc_type: largest strongly/weakly connected component identifier (lscc / lwcc)
+    :param accuracy_param: accuracy controlling param
+    :param plot: True / False
+    :return: shortest-path-lengths
+    """
     start = time.time()
 
     component = None
@@ -119,6 +144,14 @@ def random_sources(filename, cc_type, accuracy_param, plot=False):
 
 
 def approx_algo_fm(filename, cc_type, num_bitstrings=8, max_iter=12, len_bitstrings=64):
+    """
+    Flajolet-Martin algo (http://math.cmu.edu/~ctsourak/tkdd10.pdf)
+    :param filename: component edgelist filename
+    :param cc_type: largest strongly/weakly connected component identifier (lscc / lwcc)
+    :param num_bitstrings: number of hash functions
+    :param max_iter: number of iterations
+    :param len_bitstrings: hash function range
+    """
     logger.info('Flajolet Martin approximation')
     component = None
 
@@ -188,6 +221,14 @@ def approx_algo_fm(filename, cc_type, num_bitstrings=8, max_iter=12, len_bitstri
 
 
 def plot_compare_approx_exact(means, medians, diameters, eff_diameters, stats):
+    """
+    compares the approx and exact statistics
+    :param means: mean distances of various accuracy params
+    :param medians: median distances of various accuracy params
+    :param diameters: diameters of various accuracy params
+    :param eff_diameters: effective diameters of various accuracy params
+    :param stats: exact network statistics
+    """
     plt.figure(figsize=(12, 6))
     plt.plot(accuracy_array, medians, label='Median distance', color='navy')
     plt.axhline(stats[0], linestyle='dashed', color='navy')
@@ -208,6 +249,14 @@ def plot_compare_approx_exact(means, medians, diameters, eff_diameters, stats):
 
 
 def approx_analysis(filename, component_type, scheme, plot=False, network_index=1):
+    """
+    computes approximate network analysis
+    :param filename: component edgelist filename
+    :param component_type: largest strongly/weakly connected component identifier (lscc / lwcc)
+    :param scheme: approximation scheme to choose (random-pairs, random-sources, F&M algo)
+    :param plot: plot param which decides whether to plot compare with exact stats (True / False)
+    :param network_index: network identifier (1, 2, 3, 4), we are only dealing with 1, 2 network
+    """
     if scheme == 1:
         if not plot:
             random_pairs(filename, component_type, 0.1)
